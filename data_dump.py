@@ -19,6 +19,7 @@ if __name__ == "__main__":
     json_record = list(json.loads(df.T.to_json()).values())
 
     #print(json_record[0])
+    print(".env added....but ")
     
 
     #insert converted json records to MongoDB
