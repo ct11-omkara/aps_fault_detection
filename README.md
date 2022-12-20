@@ -20,7 +20,7 @@ python main.py
 git --version 
 ```
 
-To download dataset
+### To download dataset
 ```
 wget https://raw.githubusercontent.com/avnyadav/sensor-fault-detection/main/aps_failure_training_set1.csv
 ```
@@ -29,3 +29,49 @@ This is changes made in neuro lab.
 
 Hello from neuro lab.
 Hello from github website...
+
+
+## Git command
+### If you are starting a project and you want to use git in you project
+```
+git init
+```
+Note: This is going to initialize git in your source code.
+
+OR
+
+### you can clone existing github repo
+```
+git clone <github_url>
+```
+Note: clone/download github repo in your system
+
+### Add your changes made in your file to git stage
+```
+git add <file_name>
+```
+Note: you can give file name to add specific file or use "." to add everything to stageing area
+
+### Create commits
+```
+git commit -m "messege..."
+```
+
+```
+git push origin main
+```
+Note: origin--> contains url to your github repo
+main--> is your branch name
+
+### To push your changes forcefully
+```
+git push origin main -f
+```
+
+
+### To pull chandges from github repo
+```
+git pull origin main
+```
+Note: origin--> contains url to your github repo
+main--> is your branch name
