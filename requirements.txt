@@ -1,5 +1,6 @@
 # pymongo
 pandas
+numpy
 PyYAML
 dill==0.3.5.1
 dnspython==2.2.1
