@@ -5,12 +5,12 @@ class DataIngestionArtifact:
     feature_store_file_path:str
     train_file_path:str 
     test_file_path:str
-# class DataIngestionArtifact:...
+
 
 @dataclass
 class DataValidationArtifact:
     report_file_path:str
-# class DataValidationArtifact:...
+
 
 @dataclass
 class DataTransformationArtifact:
@@ -18,7 +18,6 @@ class DataTransformationArtifact:
     transformed_train_path:str
     transformed_test_path:str
     target_encoder_path:str
-# class DataTransformationArtifact:...
 
 
 @dataclass
@@ -34,4 +33,7 @@ class ModelEvaluationArtifact:
     improved_accuracy:float
 
     
-class ModelPusherArtifact:...
+@dataclass
+class ModelPusherArtifact:
+    pusher_model_dir:str 
+    saved_model_dir:str
