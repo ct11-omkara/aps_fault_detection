@@ -1,1 +1,3 @@
-artifact, logs, saved_models - these three folders are removable, we can remove these folders any time.
+1. artifact, logs, saved_models - these three folders are removable, we can remove these folders any time.
+2. bucket name will be unique universally in aws s3 bucket.
+3. first run "python train.py" then run "python batch_prediction.py" in terminal, Othewise it gives an error
