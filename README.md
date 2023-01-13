@@ -29,7 +29,6 @@ This is changes made in neuro lab.
 Hello from neuro lab.
 Hello from github website...
 
-
 ## Git command
 ### If you are starting a project and you want to use git in you project
 ```
