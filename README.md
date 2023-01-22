@@ -66,7 +66,6 @@ main--> is your branch name
 git push origin main -f
 ```
 
-
 ### To pull chandges from github repo
 ```
 git pull origin main
